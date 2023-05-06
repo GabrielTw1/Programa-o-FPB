@@ -1,0 +1,60 @@
+<?php
+#escreva um codigo que soma as variaveis e faça a multiplicação pela metade do segundo 
+
+$valor1 = 5 ;
+$valor2 = 10 ;
+$resultado = ($valor1 + $valor2) * ($valor2/2);
+    echo $resultado;
+    ?>
+
+
+<?php
+#escolha um numero e tire 15% do valor dele 
+
+$codigo = 100;
+$porcentagem = $codigo * 0.15;
+    echo $porcentagem;
+
+
+ ?>
+ 
+ <?php
+#o cliente de uma loja realizou uma compra de um produto e decidiu fazer o pagamento em 12 parcelas iguais.
+#para este parcelamento e cobrado juros de 1% ao mes. escreva um codigo que calcule e exiba o valor total 
+#da compra e o valor das parcelas 
+
+$valor = 1200;
+$juros = $valor * 0.12;
+$total = $valor + $juros;
+$parcela = $total/12;
+    echo $total."<br>";
+    echo $parcela;
+    ?>
+    
+    
+    <?php
+
+#escreva um cogido que receba um valor inteiro, converta-o em anos, exiba a idade e informe se ele e maior ou menor de idade 
+
+$valorint = 10000;
+$idade = ($valorint/365); 
+echo number_format($idade);
+    if($idade >=18 ){
+        echo " maior de idade ";
+    }else{
+        echo " menor de idade";
+    }
+    
+    
+    <?php
+
+$valor = 3;
+    for($i =0; $i<$valor ; $i++){
+        for($j=0;$j<= $i;$j++){
+        echo "fpb";
+        }
+        echo "<br>";
+    }
+
+
+
